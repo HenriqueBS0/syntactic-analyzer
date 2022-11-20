@@ -1,0 +1,142 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f26fc6ab425690ffa629f50e4bd8b37b",
+    "packages": [
+        {
+            "name": "henriquebs0/automaton",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HenriqueBS0/automaton.git",
+                "reference": "60196bb26627a6e8fa806b6e23e55a0cbbc8fcb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HenriqueBS0/automaton/zipball/60196bb26627a6e8fa806b6e23e55a0cbbc8fcb4",
+                "reference": "60196bb26627a6e8fa806b6e23e55a0cbbc8fcb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HenriqueBS0\\Automaton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HenriqueBS0",
+                    "email": "henrique.10agr@gmail.com"
+                }
+            ],
+            "description": "php component that abstracts the functions of an automaton",
+            "support": {
+                "issues": "https://github.com/HenriqueBS0/automaton/issues",
+                "source": "https://github.com/HenriqueBS0/automaton/tree/1.0.0"
+            },
+            "time": "2022-08-29T01:10:04+00:00"
+        },
+        {
+            "name": "henriquebs0/data-structures",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HenriqueBS0/data-structures.git",
+                "reference": "01acb39c6bceec670fa83292a284af7a42e47c3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HenriqueBS0/data-structures/zipball/01acb39c6bceec670fa83292a284af7a42e47c3b",
+                "reference": "01acb39c6bceec670fa83292a284af7a42e47c3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HenriqueBS0\\DataStructures\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HenriqueBS0",
+                    "email": "henrique.10agr@gmail.com"
+                }
+            ],
+            "description": "php data structures",
+            "support": {
+                "issues": "https://github.com/HenriqueBS0/data-structures/issues",
+                "source": "https://github.com/HenriqueBS0/data-structures/tree/1.0.0"
+            },
+            "time": "2022-08-28T17:43:23+00:00"
+        },
+        {
+            "name": "henriquebs0/lexical-analyzer",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HenriqueBS0/lexical-analyzer.git",
+                "reference": "edd42cf562a5ddb71d347cb8a4bc6079c06469c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HenriqueBS0/lexical-analyzer/zipball/edd42cf562a5ddb71d347cb8a4bc6079c06469c2",
+                "reference": "edd42cf562a5ddb71d347cb8a4bc6079c06469c2",
+                "shasum": ""
+            },
+            "require": {
+                "henriquebs0/automaton": "^1.0",
+                "henriquebs0/data-structures": "^1.0",
+                "php": ">=8.1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HenriqueBS0\\LexicalAnalyzer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HenriqueBS0",
+                    "email": "henrique.10agr@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/HenriqueBS0/lexical-analyzer/issues",
+                "source": "https://github.com/HenriqueBS0/lexical-analyzer/tree/1.0.1"
+            },
+            "time": "2022-09-11T17:48:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1.8"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

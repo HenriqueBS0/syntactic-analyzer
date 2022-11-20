@@ -1,0 +1,22 @@
+{
+    "name": "henriquebs0/syntactic-analyzer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HenriqueBS0\\SyntacticAnalyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.8",
+        "henriquebs0/lexical-analyzer": "^1.0",
+        "henriquebs0/automaton": "^1.0",
+        "henriquebs0/data-structures": "^1.0"
+    }
+}
