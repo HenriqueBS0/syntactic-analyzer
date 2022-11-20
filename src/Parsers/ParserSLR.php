@@ -161,7 +161,7 @@ class ParserSLR extends Parser {
             if(!$itemTable->hasActionForInput($resolveAction->getTokenStack()->top()->getToken())) {
                 $ex = new SyntacticException();
                 $ex->setToken($resolveAction->getTokenStack()->top());
-                throw new $ex;
+                throw $ex;
             }
 
             $action = $itemTable->getAction($resolveAction->getTokenStack()->top()->getToken());
